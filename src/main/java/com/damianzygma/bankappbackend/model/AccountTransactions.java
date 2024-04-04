@@ -12,7 +12,7 @@ import java.util.Date;
 @Getter
 @Setter
 @Entity
-@Table(name="account_tansactions")
+@Table(name="account_transactions")
 public class AccountTransactions {
 
 
