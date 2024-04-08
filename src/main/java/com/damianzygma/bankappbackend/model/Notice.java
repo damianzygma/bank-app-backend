@@ -19,16 +19,16 @@ public class Notice {
     @Column(name = "notice_id")
     private int noticeId;
 
-    @Column(name = "notice_summery")
-    private String noticeSummery;
+    @Column(name = "notice_summary")
+    private String noticeSummary;
 
     @Column(name = "notice_details")
     private String noticeDetails;
 
-    @Column(name = "notice_beg_dt")
+    @Column(name = "notic_beg_dt")
     private Date noticeBegDt;
 
-    @Column(name = "notice_end_dt")
+    @Column(name = "notic_end_dt")
     private Date noticeEndDt;
 
     @Column(name = "create_dt")

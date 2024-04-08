@@ -33,7 +33,7 @@ public class Customer {
     private String role;
 
     @Column(name="create_dt")
-    private Date createDt;
+    private String createDt;
 
 
 

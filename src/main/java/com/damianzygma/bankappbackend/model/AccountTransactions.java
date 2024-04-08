@@ -29,7 +29,7 @@ public class AccountTransactions {
     @Column(name = "transaction_dt")
     private Date transactionDt;
 
-    @Column(name = "transaction_summery")
+    @Column(name = "transaction_summary")
     private String transactionSummary;
 
     @Column(name = "transaction_type")
